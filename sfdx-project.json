@@ -2,10 +2,15 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "default": true,
+      "package": "navio",
+      "versionNumber": "0.1.0.NEXT",
+      "dependencies": [
+        {
+          "subscriberPackageVersionId": "04t1J000001BRWt"
+        }
+      ]
     }
   ],
-  "namespace": "",
-  "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "51.0"
+  "sourceApiVersion": "50.0"
 }
